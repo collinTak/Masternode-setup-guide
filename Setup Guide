@@ -44,6 +44,15 @@ Example: MN1 31.14.135.27:17127 892WPpkqbr7sr6Si4fdsfssjjapuFzAXwETCrpPJubnrmU6a
 Substitute it with your own values and without the “<>”s
 
 VPS - Remote wallet install
+First some basics.
+
+Create a Swap File - Low Ram Servers
+ sudo fallocate -l 4G /swapfile
+ sudo chmod 600 /swapfile
+ sudo mkswap /swapfile
+ sudo swapon /swapfile
+ sudo nano /etc/fstab
+ 
 Install all the dependencies
 
 sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev libevent-dev
