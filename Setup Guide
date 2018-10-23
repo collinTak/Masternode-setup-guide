@@ -56,6 +56,10 @@ Create a Swap File - Low Ram Servers
  Add to fstab file by using arrow down and pasting the following on the file after all that already is there
  
 /swapfile   none    swap    sw    0   0
+
+once done press CTRL x
+press y
+press enter  # done
  
 Install all the dependencies
 
