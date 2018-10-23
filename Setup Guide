@@ -53,6 +53,10 @@ Create a Swap File - Low Ram Servers
  sudo swapon /swapfile
  sudo nano /etc/fstab
  
+ Add to fstab file by using arrow down and pasting the following on the file after all that already is there
+ 
+/swapfile   none    swap    sw    0   0
+ 
 Install all the dependencies
 
 sudo apt-get install build-essential libtool autotools-dev autoconf pkg-config libssl-dev libevent-dev
