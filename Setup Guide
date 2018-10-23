@@ -90,7 +90,9 @@ cd bltg <enter>
 make <enter>
 
 Note: If this is the first time running the wallet in the VPS, you’ll need to attempt to start the wallet 
-./bltgd
+
+cd src/   press enter
+./bltgd   press enter
  this will place the config files in your ~/.bltg data directory
 press 
 CTRL+C
