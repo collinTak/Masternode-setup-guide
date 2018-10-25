@@ -138,9 +138,12 @@ esc
 
 Start your masternode
 11) Now, you need to finally start these things in this order
-– Start the daemon client in the VPS. First go back to your installed wallet directory, 
-cd ~/bltg
-and then start the wallet using 
+- VPS에서 데몬 클라이언트를 시작합니다. 먼저 설치된 wallet 디렉토리로 돌아가서,
+cd ~ / bltg
+cd /src
+
+다음을 사용하여 지갑을 시작하십시오. 
+excute pate = ($ ~bltg/src)
 ./bltgd
 
 – From the Control wallet debug console
